@@ -12,7 +12,7 @@ export default function Reception() {
           className="w-25 md:w-50 h-auto py-4 md:py-4 lg:py-8"
         />
       </div>
-      <h2 className="eb-garamond text-[15px] md:text-2xl lg:text-[30px] uppercase text-[#AF630E] text-center">
+      <h2 className="eb-garamond text-2xl md:text-2xl lg:text-[30px] uppercase text-[#AF630E] text-center">
         VENUE
       </h2>
 
@@ -21,14 +21,14 @@ export default function Reception() {
       </h2>
 
       <div className="flex flex-col items-center justify-center">
-         <a
-            href="https://maps.app.goo.gl/r1qkFFHaxjTTPRWg8"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2 text-[#AF630E] eb-garamond text-sm md:text-lg"
-          >
-            View Location
-          </a>
+        <a
+          href="https://maps.app.goo.gl/r1qkFFHaxjTTPRWg8"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 text-[#AF630E] eb-garamond text-sm md:text-lg"
+        >
+          View Location
+        </a>
       </div>
       <div className="flex flex-col items-center">
         <Image
@@ -44,25 +44,21 @@ export default function Reception() {
         special milestone and bless the occasion with your presence.
       </h2>
 
-
-  <div className="flex flex-col items-center justify-center md:mt-10 lg:mt-15 mt-20">
-<a
-            href="https://invitearc.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className=" flex items-center"
-          >
-            {" "}
-            <img
-              src="/assets/logo.png"
-              alt="Wedding Logo"
-              className="md:w-17 w-13"
-            />
-          </a>
-
-</div>
-
-
+      <div className="flex flex-col items-center justify-center md:mt-10 lg:mt-15 mt-20">
+        <a
+          href="https://invitearc.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" flex items-center"
+        >
+          {" "}
+          <img
+            src="/assets/logo.png"
+            alt="Wedding Logo"
+            className="md:w-17 w-13"
+          />
+        </a>
+      </div>
 
       <div className="mb-1 flex flex-col items-center justify-center gap-2 ">
         <a

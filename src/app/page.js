@@ -140,7 +140,7 @@ export default function Home() {
   md:min-h-[800px] lg:min-h-[1800px]
   flex flex-col"
       >
-        <h2 className="eb-garamond md:mt-10 lg:mt-20 text-xl md:text-3xl lg:text-[60px] text-[#AF630E] text-center">
+        <h2 className="eb-garamond md:mt-10 lg:mt-20 text-3xl md:text-3xl lg:text-[60px] text-[#AF630E] text-center">
           Dhoti Ceremony
           <br />
           Details

@@ -12,12 +12,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://aryan-bandi.vercel.app/"),
+  metadataBase: new URL("https://aryan-bandi-v1.vercel.app/"),
 
   openGraph: {
     title: "Aryan Bandi",
     description: "Join us for a beautiful celebration of tradition and blessings. 29 November 2026",
-    url: "https://aryan-bandi.vercel.app/",
+    url: "https://aryan-bandi-v1.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata = {
   },
 
   other: {
-    "og:image:secure_url": "https://aryan-bandi.vercel.app/og.jpg",
+    "og:image:secure_url": "https://aryan-bandi-v1.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 };
