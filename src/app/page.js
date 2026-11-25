@@ -60,8 +60,14 @@ export default function Home() {
       >
         {playing ? "⏸" : "▶"}
       </button>
- <IntroVideo />
-      {/* <audio ref={audioRef} src="/assets/laavan.mp3" loop preload="auto" playsInline /> */}
+      <IntroVideo />
+      <audio
+        ref={audioRef}
+        src="/assets/song.mp3"
+        loop
+        preload="auto"
+        playsInline
+      />
 
       <div className="relative w-full overflow-hidden">
         {/* Desktop Background */}
@@ -80,8 +86,6 @@ export default function Home() {
         <RoseHeroTemp />
         {/* Main Content */}
         <div className="relative z-10 w-full pt-12 md:pt-50 lg:pt-80 flex flex-col items-center text-center">
-         
-
           <div className="relative z-10 mt-90 md:mt-240 lg:mt-380 flex flex-col items-center w-full md:pb-20 pb-14">
             <Image
               src="/assets/element1.png"
@@ -116,13 +120,13 @@ export default function Home() {
               of
             </p>
 
-            <p className="jacques-francois-regular uppercase text-[#8B4A00] text-[14px] md:text-xl lg:text-2xl xl:text-3xl mt-4 md:mt-8 bg-[url('/assets/element2.png')] bg-contain bg-center bg-no-repeat h-10 md:h-14 lg:h-20 w-[150px] md:w-[350px] lg:w-[520px] flex items-center justify-center">
+            <p className="jacques-francois-regular uppercase text-[#8B4A00] text-[18px] md:text-xl lg:text-2xl xl:text-3xl mt-4 md:mt-8 bg-[url('/assets/element2.png')] font-bold bg-contain bg-center bg-no-repeat h-15 md:h-14 lg:h-20 w-[200px] md:w-[350px] lg:w-[520px] flex items-center justify-center">
               Aryan Bandi
             </p>
 
             <p className="eb-garamond text-[#8B4A00] text-sm md:text-xl lg:text-3xl mt-8 md:mt-16">
-              Grandson of Mrs. Manjula Bandi & Mr. Narender Bandi <br />
-              Son of Mrs. Swetha Bandi & Mr. Naveen Bandi
+              (Grandson of Mrs. Manjula Bandi & Mr. Narender Bandi) <br />
+              (Son of Mrs. Swetha Bandi & Mr. Naveen Bandi)
             </p>
           </div>
         </div>
@@ -138,15 +142,12 @@ export default function Home() {
   flex flex-col"
       >
         <h2 className="eb-garamond md:mt-10 lg:mt-20 text-3xl md:text-3xl lg:text-[60px] text-[#AF630E] text-center">
-          Dhoti Ceremony
-          <br />
-          Details
+          Ceremony Details
         </h2>
         <div className="flex flex-col items-center">
           <img
             src="/assets/element4.png"
             alt="Decorative element"
-            
             className="w-25 md:w-50 h-auto py-2 md:py-4 lg:py-8"
           />
         </div>
@@ -163,7 +164,6 @@ export default function Home() {
           <img
             src="/assets/element4.png"
             alt="Decorative element"
-            
             className="w-25 md:w-50 h-auto py-2 md:py-4 lg:py-8"
           />
         </div>
@@ -178,9 +178,8 @@ export default function Home() {
         />
         <CoupleMessage />
       </div>
-      
-     
-       <div className="w-full relative">
+
+      <div className="w-full relative">
         <picture className="block w-full">
           <source
             media="(min-width: 768px)"
@@ -193,15 +192,15 @@ export default function Home() {
             className="block w-full h-auto"
           />
         </picture>
-<div className="flex justify-center items-center">
-  <img
-    src="/assets/logon.png"
-    alt=""
-    className="absolute left-1/2 -translate-x-1/2 md:top-50 lg:top-110 top-30 md:w-60 w-30 z-10 -ml-4 md:-ml-10"
-  />
-</div>
+        <div className="flex justify-center items-center">
+          <img
+            src="/assets/logon.png"
+            alt=""
+            className="absolute left-1/2 -translate-x-1/2 md:top-50 lg:top-110 top-30 md:w-60 w-30 z-10 -ml-4 md:-ml-10"
+          />
+        </div>
       </div>
-       <Reception />
+      <Reception />
     </>
   );
 }
