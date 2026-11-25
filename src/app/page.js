@@ -112,7 +112,7 @@ export default function Home() {
               cordially invite you to join us in celebrating the.
             </h2>
 
-            <h2 className="parisienne-regular text-[#8B4A00] text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium mt-8">
+            <h2 className="great-vibes-regular text-[#8B4A00] text-4xl md:text-6xl lg:text-[100px] leading-tight font-semibold mt-8">
               Dhoti Ceremony
             </h2>
 
