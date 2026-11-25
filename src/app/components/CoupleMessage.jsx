@@ -32,13 +32,13 @@ export default function CoupleMessage() {
           className="w-25 md:w-50 h-auto py-2 md:py-4 lg:py-8"
         />
       </div>
-      <div className="mt-10 flex justify-center items-center overflow-visible">
+      <div className="mt-10 w-full max-w-full flex justify-center items-center overflow-hidden">
         <Swiper
           effect="cards"
           grabCursor={true}
           modules={[EffectCards]}
+          centeredSlides={true}
           className="!w-[280px] !h-[380px] md:!w-[400px] md:!h-[500px] lg:!w-[450px] lg:!h-[540px]"
-          loop={true}
         >
           {carouselImages.map((image, index) => (
             <SwiperSlide
@@ -46,10 +46,10 @@ export default function CoupleMessage() {
               className="!flex justify-center items-center !rounded-2xl overflow-hidden"
             >
               <img
-  src={image}
-  alt={`Little Star ${index + 1}`}
-  className="w-full h-full object-cover object-top rounded-2xl"
-/>
+                src={image}
+                alt={`Little Star ${index + 1}`}
+                className="w-full h-full object-cover object-top rounded-2xl"
+              />
             </SwiperSlide>
           ))}
         </Swiper>
