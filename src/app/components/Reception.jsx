@@ -19,6 +19,17 @@ export default function Reception() {
       <h2 className="eb-garamond mt-2 text-[13px] md:text-xl lg:text-[20px] text-[#AF630E] text-center">
         Khaja Mansion Convention/Function Hall, <br /> Banjara Hills, Hyderabad.
       </h2>
+
+      <div className="flex flex-col items-center justify-center">
+         <a
+            href="https://maps.app.goo.gl/r1qkFFHaxjTTPRWg8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 text-[#AF630E] eb-garamond text-sm md:text-lg"
+          >
+            View Location
+          </a>
+      </div>
       <div className="flex flex-col items-center">
         <Image
           src="/assets/element4.png"
