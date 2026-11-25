@@ -4,6 +4,7 @@ import { useEffect, useState, useRef, useMemo } from "react";
 import Reception from "./components/Reception";
 import RoseHeroTemp from "./components/RoseHeroTemp";
 import CoupleMessage from "./components/CoupleMessage";
+import IntroVideo from "./components/IntroVideo";
 export default function Home() {
   const audioRef = useRef(null);
   const [started, setStarted] = useState(false);
@@ -59,7 +60,7 @@ export default function Home() {
       >
         {playing ? "⏸" : "▶"}
       </button>
-
+ <IntroVideo />
       {/* <audio ref={audioRef} src="/assets/laavan.mp3" loop preload="auto" playsInline /> */}
 
       <div className="relative w-full overflow-hidden">
@@ -79,11 +80,7 @@ export default function Home() {
         <RoseHeroTemp />
         {/* Main Content */}
         <div className="relative z-10 w-full pt-12 md:pt-50 lg:pt-80 flex flex-col items-center text-center">
-          {/* <h2 className="jacques-francois-regular flex flex-col items-center md:gap-6 mt-6 md:mt-12 text-xl md:text-5xl lg:text-[60px] uppercase text-[#AF630E]">
-            DHOTI
-            <br />
-            CEREMONY
-          </h2> */}
+         
 
           <div className="relative z-10 mt-90 md:mt-240 lg:mt-380 flex flex-col items-center w-full md:pb-20 pb-14">
             <Image
