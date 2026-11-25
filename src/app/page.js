@@ -121,7 +121,7 @@ export default function Home() {
             </p>
 
             <p className="eb-garamond text-[#8B4A00] text-sm md:text-xl lg:text-3xl mt-8 md:mt-16">
-              Grandson of Mrs. Manjula Bandi & Mr. Narandas Bandi <br />
+              Grandson of Mrs. Manjula Bandi & Mr. Narender Bandi <br />
               Son of Mrs. Swetha Bandi & Mr. Naveen Bandi
             </p>
           </div>
