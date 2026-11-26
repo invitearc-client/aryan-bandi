@@ -55,9 +55,9 @@ export default function MarriageCountdown() {
     <>
     
       
-<h2 className="eb-garamond mt-10 md:mt-10 lg:mt-20 text-2xl md:text-3xl lg:text-[60px] text-[#AF630E] text-center font-semibold">
+<h2 className="eb-garamond mt-10 md:mt-10 lg:mt-20 text-[23px] md:text-3xl lg:text-[60px] text-[#AF630E] text-center font-semibold">
        THE COUNTDOWN
-          <br />
+          
           BEGINS
       </h2>
         <div className="flex md:gap-12 gap-2 justify-center items-center mt-6">

@@ -39,9 +39,8 @@ export default function Reception() {
           className="w-25 md:w-50 h-auto py-4 md:py-4 lg:py-8"
         />
       </div>
-      <h2 className="eb-garamond text-[#AF630E] text-sm md:text-xl lg:text-3xl text-center">
-        We would be honoured to have you join us as we celebrate this <br />{" "}
-        special milestone and bless the occasion with your presence.
+      <h2 className="eb-garamond text-[#AF630E] text-sm md:text-xl lg:text-3xl text-center px-3">
+        We would be delighted to have you join us as we celebrate this special milestone. Your gracious presence would make the occasion even more memorable and meaningful.
       </h2>
 
       <div className="flex flex-col items-center justify-center md:mt-10 lg:mt-15 mt-20">

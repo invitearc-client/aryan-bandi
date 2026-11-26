@@ -309,7 +309,7 @@ export default function ScratchText({ onReveal }) {
         }}
       >
         29<sup className="text-[16px] mr-2">th </sup>
-        November
+        November 2026
       </div>
 
       <canvas

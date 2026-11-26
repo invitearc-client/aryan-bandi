@@ -26,11 +26,11 @@ export default function CoupleMessage() {
         Our Little Star
       </h2>
       <div className="flex flex-col items-center">
-        <img
-          src="/assets/element4.png"
-          alt="Decorative element"
-          className="w-25 md:w-50 h-auto py-2 md:py-4 lg:py-8"
-        />
+          <img
+  src="/assets/element6.png"
+  alt="Decorative element"
+  className="w-25 md:w-50 h-auto object-contain py-2 md:py-4 lg:py-8"
+/>
       </div>
       <div className="mt-10 w-full max-w-full flex justify-center items-center overflow-hidden">
         <Swiper
@@ -57,12 +57,10 @@ export default function CoupleMessage() {
 
       <div className="flex flex-col justify-center items-center mb-10 md:mb-10 mt-20">
         <h2 className="eb-garamond md:mt-10 lg:mt-20 text-3xl md:text-3xl lg:text-[60px] text-[#AF630E] text-center">
-          With <br /> Love & Blessings
+          With Love From <br /> Us
         </h2>
         <p className="eb-garamond text-[#8B4A00] text-sm md:text-xl lg:text-3xl mt-2 text-center md:w-400 px-4">
-          Thank you for being part of our little one's special day.Your love and
-          blessings make this Dhoti Ceremony even more memorable. We are truly
-          grateful to celebrate these precious moments with you!
+          Thank you for being part of our Journey. Your presence makes this celebration truly meaningful, and we look forward to sharing these cherished moments with you.
         </p>
 
         <img

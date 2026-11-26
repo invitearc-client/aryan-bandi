@@ -116,13 +116,20 @@ export default function Home() {
               Dhoti Ceremony
             </h2>
 
-            <p className="eb-garamond text-[#8B4A00] text-sm md:text-xl lg:text-3xl mt-2">
+            <p className="eb-garamond text-[#8B4A00] text-2xl md:text-xl lg:text-3xl mt-2">
               of
             </p>
 
-            <p className="jacques-francois-regular uppercase text-[#8B4A00] text-[18px] md:text-xl lg:text-2xl xl:text-3xl mt-4 md:mt-8 bg-[url('/assets/element2.png')] font-bold bg-contain bg-center bg-no-repeat h-15 md:h-14 lg:h-20 w-[200px] md:w-[350px] lg:w-[520px] flex items-center justify-center">
+ <img
+              src="/assets/aryan_text.png"
+              alt="Decorative element"
+              
+              className="w-70"
+            />
+
+            {/* <p className="jacques-francois-regular uppercase text-[#8B4A00] text-[18px] md:text-xl lg:text-2xl xl:text-3xl mt-4 md:mt-8 bg-[url('/assets/element2.png')] font-bold bg-contain bg-center bg-no-repeat h-15 md:h-14 lg:h-20 w-[200px] md:w-[350px] lg:w-[520px] flex items-center justify-center">
               Aryan Bandi
-            </p>
+            </p> */}
 
             <p className="eb-garamond text-[#8B4A00] text-sm md:text-xl lg:text-3xl mt-8 md:mt-16">
               (Grandson of Mrs. Manjula Bandi & Mr. Narender Bandi) <br />
@@ -145,11 +152,11 @@ export default function Home() {
           Ceremony Details
         </h2>
         <div className="flex flex-col items-center">
-          <img
-            src="/assets/element4.png"
-            alt="Decorative element"
-            className="w-25 md:w-50 h-auto py-2 md:py-4 lg:py-8"
-          />
+         <img
+  src="/assets/element6.png"
+  alt="Decorative element"
+  className="w-25 md:w-50 h-auto object-contain py-2 md:py-4 lg:py-8"
+/>
         </div>
         <h2 className="eb-garamond text-[15px] md:text-2xl lg:text-[30px] uppercase text-[#AF630E] text-center">
           DATE & TIME
@@ -161,11 +168,11 @@ export default function Home() {
           Sunday, 07:00 PM onwards.
         </h2>
         <div className="flex flex-col items-center">
-          <img
-            src="/assets/element4.png"
-            alt="Decorative element"
-            className="w-25 md:w-50 h-auto py-2 md:py-4 lg:py-8"
-          />
+            <img
+  src="/assets/element6.png"
+  alt="Decorative element"
+  className="w-25 md:w-50 h-auto object-contain py-2 md:py-4 lg:py-8"
+/>
         </div>
         <h2 className="eb-garamond text-[#AF630E] text-sm md:text-xl lg:text-3xl text-center px-10">
           Your gracious presence will make this sacred occasion even more
