@@ -86,7 +86,7 @@ export default function Home() {
         <RoseHeroTemp />
         {/* Main Content */}
         <div className="relative z-10 w-full pt-12 md:pt-50 lg:pt-80 flex flex-col items-center text-center">
-          <div className="relative z-10 mt-90 md:mt-240 lg:mt-380 flex flex-col items-center w-full md:pb-20 pb-14">
+          <div className="relative z-10 mt-95 md:mt-240 lg:mt-380 flex flex-col items-center w-full md:pb-20 pb-14">
             <Image
               src="/assets/element1.png"
               alt="Decorative element"
@@ -120,10 +120,9 @@ export default function Home() {
               of
             </p>
 
- <img
+            <img
               src="/assets/aryan_text.png"
               alt="Decorative element"
-              
               className="w-70"
             />
 
@@ -152,11 +151,11 @@ export default function Home() {
           Ceremony Details
         </h2>
         <div className="flex flex-col items-center">
-         <img
-  src="/assets/element6.png"
-  alt="Decorative element"
-  className="w-25 md:w-50 h-auto object-contain py-2 md:py-4 lg:py-8"
-/>
+          <img
+            src="/assets/element6.png"
+            alt="Decorative element"
+            className="w-25 md:w-50 h-auto object-contain py-2 md:py-4 lg:py-8"
+          />
         </div>
         <h2 className="eb-garamond text-[15px] md:text-2xl lg:text-[30px] uppercase text-[#AF630E] text-center">
           DATE & TIME
@@ -168,11 +167,11 @@ export default function Home() {
           Sunday, 07:00 PM onwards.
         </h2>
         <div className="flex flex-col items-center">
-            <img
-  src="/assets/element6.png"
-  alt="Decorative element"
-  className="w-25 md:w-50 h-auto object-contain py-2 md:py-4 lg:py-8"
-/>
+          <img
+            src="/assets/element6.png"
+            alt="Decorative element"
+            className="w-25 md:w-50 h-auto object-contain py-2 md:py-4 lg:py-8"
+          />
         </div>
         <h2 className="eb-garamond text-[#AF630E] text-sm md:text-xl lg:text-3xl text-center px-10">
           Your gracious presence will make this sacred occasion even more
