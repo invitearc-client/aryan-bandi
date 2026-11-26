@@ -202,7 +202,7 @@ export default function Home() {
           <img
             src="/assets/logon.png"
             alt=""
-            className="absolute left-1/2 -translate-x-1/2 md:top-50 lg:top-110 top-30 md:w-60 w-30 z-10 -ml-4 md:-ml-10"
+            className="absolute left-1/2 -translate-x-1/2 md:top-50 lg:top-110 top-30 md:w-60 w-40 z-10 -ml-4 md:-ml-10"
           />
         </div>
       </div>

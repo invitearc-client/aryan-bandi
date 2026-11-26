@@ -3,15 +3,13 @@ import Image from "next/image";
 export default function Reception() {
   return (
     <div className="bg-[#FFEBDB] md:pt-30 pt-15">
-      <div className="flex flex-col items-center">
-        <Image
-          src="/assets/element4.png"
-          alt="Decorative element"
-          width={100}
-          height={100}
-          className="w-25 md:w-50 h-auto py-4 md:py-4 lg:py-8"
-        />
-      </div>
+       <div className="flex flex-col items-center">
+          <img
+            src="/assets/element6.png"
+            alt="Decorative element"
+            className="w-25 md:w-50 h-auto object-contain py-2 md:py-4 lg:py-8"
+          />
+        </div>
       <h2 className="eb-garamond text-2xl md:text-2xl lg:text-[30px] uppercase text-[#AF630E] text-center">
         VENUE
       </h2>
@@ -31,14 +29,12 @@ export default function Reception() {
         </a>
       </div>
       <div className="flex flex-col items-center">
-        <Image
-          src="/assets/element4.png"
-          alt="Decorative element"
-          width={100}
-          height={100}
-          className="w-25 md:w-50 h-auto py-4 md:py-4 lg:py-8"
-        />
-      </div>
+          <img
+            src="/assets/element6.png"
+            alt="Decorative element"
+            className="w-25 md:w-50 h-auto object-contain py-2 md:py-4 lg:py-8"
+          />
+        </div>
       <h2 className="eb-garamond text-[#AF630E] text-sm md:text-xl lg:text-3xl text-center px-3">
         We would be delighted to have you join us as we celebrate this special milestone. Your gracious presence would make the occasion even more memorable and meaningful.
       </h2>
